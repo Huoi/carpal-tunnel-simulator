@@ -1,0 +1,38 @@
+body {
+  background-color: slategray;
+}
+
+button {
+  background-color: darkgray;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+#game {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.layer {
+  display: block;
+}
+
+.big {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 500%;
+}
+
+.mid {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 200%;
+}

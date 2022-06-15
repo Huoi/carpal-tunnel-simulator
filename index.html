@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carpal tunnel simulator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="game">
+      <span class="layer">
+        <label id="clicks-lbl" class="big"></label>
+      </span>
+      <span class="layer">
+        <label id="cps-lbl" class="mid"></label>
+      </span>
+      <span class="layer">
+        <button id="clicker" class="big" onclick="clicked()">Click</button>
+      </span>
+      <span class="layer">
+        <button id="upgrade-btn" class="mid" onclick="upgrade()"></button>
+      </span>
+      <span class="layer">
+        <button id="buy-cursor-btn" class="mid" onclick="buy(0)"></button>
+        <button id="buy-mouse-btn" class="mid" onclick="buy(1)"></button>
+        <button id="buy-keyboard-btn" class="mid" onclick="buy(2)"></button>
+      </span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
